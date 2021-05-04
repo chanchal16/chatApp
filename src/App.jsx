@@ -2,7 +2,7 @@ import React, { useState,useRef } from 'react'
 import './App.css'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import {db} from './config'
-import { useCollectionData } from 'react-firebase-hooks/firestore';
+// import { useCollectionData } from 'react-firebase-hooks/firestore';
 import {Login,auth} from './Components/Login';
 import SendMessage from './Components/SendMessage/SendMessage';
 

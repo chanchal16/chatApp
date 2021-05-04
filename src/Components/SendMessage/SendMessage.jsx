@@ -26,8 +26,9 @@ export default function SendMessage() {
 
             {
                 messages.map(msg=>{
-                    <Messages  msg={msg} />
-                    
+                    <div>
+                        <Messages  msg={msg} />
+                    </div>
                 })
             }
         </div>
